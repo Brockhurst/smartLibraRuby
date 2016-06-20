@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: coins
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  release_year :date
+#  weight       :integer
+#  radius       :integer
+#  user_id      :integer
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  release_year: 2016-05-27
+  weight: 1
+  radius: 1
+
+two:
+  name: MyString
+  release_year: 2016-05-27
+  weight: 1
+  radius: 1

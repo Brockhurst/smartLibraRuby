@@ -1,0 +1,22 @@
+# == Schema Information
+#
+# Table name: devices
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  status     :boolean
+#  user_id    :integer
+#  token      :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  status: false
+
+two:
+  name: MyString
+  status: false

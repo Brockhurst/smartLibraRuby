@@ -1,0 +1,35 @@
+# == Schema Information
+#
+# Table name: results
+#
+#  id           :integer          not null, primary key
+#  name         :string
+#  release_year :date
+#  weight       :integer
+#  radius       :integer
+#  device_id    :integer
+#  status       :string
+#  saved        :boolean
+#  created_at   :datetime         not null
+#  updated_at   :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  release_year: 2016-05-27
+  weight: 1
+  radius: 1
+  device_id: 1
+  status: MyString
+  saved: false
+
+two:
+  name: MyString
+  release_year: 2016-05-27
+  weight: 1
+  radius: 1
+  device_id: 1
+  status: MyString
+  saved: false
